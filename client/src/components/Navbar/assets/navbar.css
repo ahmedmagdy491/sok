@@ -1,0 +1,55 @@
+.nav {
+	height: 80px;
+	background: white;
+}
+.account {
+	background: #8d39fa;
+	border: none;
+}
+.account:hover {
+	background: #591da8;
+}
+
+.shop {
+	background: transparent;
+	border: #8d39fa 1px solid;
+	color: #8d39fa;
+}
+
+.shop:hover {
+	border: #8d39fa 1px solid;
+	background: #8d39fa;
+	color: white;
+}
+
+.shop,
+.account {
+	outline: none;
+	border-radius: 42px;
+	font-size: small;
+	font-weight: 700;
+}
+.links,
+.drop-down {
+	color: #333;
+	padding: 0 24px;
+	display: inline-block;
+	color: #333;
+	font-weight: 500;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #f8f9fa;
+	border: none;
+	outline: 0;
+	box-shadow: none;
+}
+.drop-down {
+	margin-top: 3px;
+	background: #f8f9fa;
+}
+.drop-down:hover {
+	/* background: #f8f9fa; */
+	border: none;
+	outline: 0;
+	box-shadow: none;
+}

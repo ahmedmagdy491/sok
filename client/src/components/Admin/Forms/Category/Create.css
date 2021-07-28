@@ -1,0 +1,22 @@
+#submit-btn {
+	background: #6813d6;
+	color: white;
+	border: none;
+	border-radius: 42px;
+}
+#close {
+	border: #6813d6 1px solid;
+	border-radius: 42px;
+	color: #6813d6;
+}
+#close:hover {
+	background: #6813d6;
+	color: white;
+}
+#submit-btn:hover {
+	background: #470d94;
+}
+
+.drawer {
+	margin-top: 80px;
+}

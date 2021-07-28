@@ -1,0 +1,9 @@
+.carousel-image {
+	height: 84vh;
+}
+
+.panner {
+	width: 33rem;
+	display: flex;
+	align-items: flex-end;
+}

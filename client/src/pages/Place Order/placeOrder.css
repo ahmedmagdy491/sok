@@ -1,0 +1,23 @@
+.note {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.note label {
+	font-size: 18px;
+}
+
+.note textarea {
+	width: 95%;
+	height: 6rem;
+	border: 1px solid #000;
+	font-size: 16px;
+	padding: 0.5rem;
+}
+
+.note textarea:focus {
+	outline: none;
+}

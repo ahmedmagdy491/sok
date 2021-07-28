@@ -1,0 +1,8 @@
+.landing div:last-child {
+	margin-top: 47px;
+}
+
+.panner-container {
+	display: flex;
+	justify-content: center;
+}
