@@ -4,9 +4,8 @@
 	"description": "silks kashmir backend",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js",
-		"dev": "nodemon app.js",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+		"start": "node server/app.js",
+		"dev": "nodemon server/app.js"
 	},
 	"author": "Ahmed",
 	"license": "ISC",

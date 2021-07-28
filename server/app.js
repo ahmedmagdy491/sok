@@ -14,7 +14,7 @@ app.use(express.json());
 
 connectDB();
 // routes middleware
-readdirSync('./routes').map((route) =>
+readdirSync('./server/routes').map((route) =>
 	app.use('/api', require('./routes/' + route))
 );
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
